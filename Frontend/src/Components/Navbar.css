@@ -1,0 +1,32 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 1rem;
+  background-color: #282c34;
+  color: white;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: x-large;
+  transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-link:active {
+  color: #1c64f2; /* Change color on click */
+}
